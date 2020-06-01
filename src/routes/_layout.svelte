@@ -1,3 +1,7 @@
+<script lang="typescript">
+  import GoogleAnalitics from "../components/GoogleAnalitics.svelte";
+</script>
+
 <style>
   main {
     position: relative;
@@ -9,6 +13,7 @@
   }
 </style>
 
+<!-- <GoogleAnalitics></GoogleAnalitics> -->
 <main>
   <slot />
 </main>

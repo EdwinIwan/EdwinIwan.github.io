@@ -4,7 +4,7 @@
     "compilerOptions": {
         "target": "es2015",
         "module": "es2015",
-        "types": ["svelte", "node", "@sapper"], // add the last two to the existing types
-        "typeRoots": ["typings"] // add line
+        "types": ["svelte", "node", "@sapper"],
+        "typeRoots": ["typings"]
     }
 }
