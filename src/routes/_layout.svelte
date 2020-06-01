@@ -1,5 +1,5 @@
 <script lang="typescript">
-  import GoogleAnalitics from "../components/GoogleAnalitics.svelte";
+  // import GoogleAnalitics from "../components/GoogleAnalitics.svelte";
 </script>
 
 <style>
