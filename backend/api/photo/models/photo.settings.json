@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "photos",
+  "info": {
+    "name": "Photo"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Photo": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,5 +1,5 @@
-<script lang="typescript">
-  // import GoogleAnalitics from "../components/GoogleAnalitics.svelte";
+<script>
+  import GoogleAnalitics from "../components/GoogleAnalitics.svelte";
 </script>
 
 <style>
@@ -13,7 +13,7 @@
   }
 </style>
 
-<!-- <GoogleAnalitics></GoogleAnalitics> -->
+<GoogleAnalitics />
 <main>
   <slot />
 </main>

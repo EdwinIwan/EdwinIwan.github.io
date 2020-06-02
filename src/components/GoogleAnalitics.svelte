@@ -1,6 +1,6 @@
-<script lang="typescript">
+<script>
   import { stores } from "@sapper/app";
-  import { gaID } from "../config.ts";
+  import { gaID } from "../config";
 
   const { page } = stores();
 

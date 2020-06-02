@@ -6,3 +6,4 @@ src/node_modules/@sapper
 src/node_modules/@sapper/
 cypress/screenshots
 cypress/screenshots/
+backend

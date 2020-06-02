@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "comments",
+  "info": {
+    "name": "Comment"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "Comment": {
+      "type": "richtext"
+    },
+    "Date": {
+      "type": "datetime"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "Author": {
+      "model": "author",
+      "via": "Comments"
+    }
+  }
+}

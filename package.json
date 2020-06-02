@@ -13,17 +13,24 @@
     "export": "sapper export --legacy",
     "fix": "npx run-p \"format:* --write\" \"lint:* --fix\"",
     "lint:svelte": "npx eslint \"src/**/*.svelte\"",
-    "lint:ts": "npx eslint \"src/**/*.ts\"",
-    "lint:js": "npx eslint \"./**/*.js\"",
+    "lint:js": "npx eslint \"src/**/*.js\"",
     "format:svelte": "npx prettier --write --plugin-search-dir=. ./**/*.svelte",
-    "format:ts": "npx prettier \"src/**/*.ts\"",
-    "format:js": "npx prettier \"**/*.js\"",
+    "format:js": "npx prettier \"src/**/*.js\"",
     "deploy": "npm run clean && npm run export && node ./scripts/gh-pages.js"
   },
   "dependencies": {
+    "apollo-boost": "^0.4.9",
+    "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.14",
+    "apollo-link-http": "^1.5.17",
     "compression": "^1.7.1",
+    "cross-fetch": "^3.0.4",
+    "global": "^4.4.0",
+    "graphql": "^15.0.0",
     "polka": "next",
     "sirv": "^0.4.0",
+    "strapi": "^3.0.1",
+    "strapi-plugin-graphql": "^3.0.1",
     "svelte-apollo": "^0.3.0",
     "svelte-i18n": "^3.0.4"
   },
@@ -50,10 +57,8 @@
     "rollup": "^2.3.4",
     "rollup-plugin-svelte": "^5.0.1",
     "rollup-plugin-terser": "^5.3.0",
-    "rollup-plugin-typescript2": "^0.27.1",
     "sapper": "^0.27.13",
     "svelte": "^3.23.0",
-    "svelte-preprocess": "^3.7.4",
-    "typescript": "^3.9.3"
+    "svelte-preprocess": "^3.7.4"
   }
 }
